@@ -26,7 +26,7 @@ streamlit run streamlit_app.py
 
 Project Structure
 
-.
+
 ├── dataset_build.csv
 
 ├── streamlit_app.py
