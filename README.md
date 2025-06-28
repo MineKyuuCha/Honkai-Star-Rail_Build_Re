@@ -25,11 +25,16 @@ Run the Streamlit app:
 streamlit run streamlit_app.py
 
 Project Structure
+
 .
 ├── dataset_build.csv
+
 ├── streamlit_app.py
+
 ├── requirements.txt
+
 ├── README.md
+
 
 📝Notes
 The initial dataset is provided in dataset_build.csv. You can expand it by adding more characters, builds, relics, planars, etc.
@@ -37,6 +42,7 @@ The initial dataset is provided in dataset_build.csv. You can expand it by addin
 You can change the background wallpaper by modifying the URL in the page_bg_img section in streamlit_app.py.
 
 Future improvements may include auto-scraping forum comments and generating builds dynamically.
+
 
 🤝Contributing
 Pull requests and suggestions are welcome!
