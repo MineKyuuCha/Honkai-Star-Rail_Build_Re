@@ -8,12 +8,12 @@ A simple Streamlit app template for you to modify!
 
 1. Install the requirements
 
-   ```
+   
    $ pip install -r requirements.txt
    ```
 
 2. Run the app
 
-   ```
+   import streamlit as st
    $ streamlit run streamlit_app.py
    ```
