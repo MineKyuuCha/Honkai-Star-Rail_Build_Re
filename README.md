@@ -14,9 +14,8 @@ Features:
 
 1. **Clone this repository**:
 2.     ```bash
-   git clone https://github.com/MineKyuuCha/Honkai-Star-Rail_Build_Re.git
-   
-   cd Honkai-Star-Rail_Build_Re
+             git clone https://github.com/MineKyuuCha/Honkai-Star-Rail_Build_Re.git
+             cd Honkai-Star-Rail_Build_Re
 
 
 
