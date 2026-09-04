@@ -7,7 +7,7 @@ from googletrans import Translator
 # -----------------------
 # Load dataset
 # -----------------------
-df = pd.read_csv("dataset_build.csv")
+df = pd.read_csv("dataset_build.csv", encoding="cp1252")
 
 # -----------------------
 # Setting   UI
