@@ -10,7 +10,7 @@ from googletrans import Translator
 df = pd.read_csv("dataset_build.csv", encoding="cp1252")
 
 # Pastikan kolom komentar tidak kosong / bukan NaN
-df["komentar"] = df["komentar"].fillna("").astype(str)
+df["comment"] = df["comment"].fillna("").astype(str)
 
 # -----------------------
 # Setting   UI
@@ -97,7 +97,7 @@ if st.session_state.user_input:
     tfidf = TfidfVectorizer(stop_words="english")
 
     tfidf_matrix = tfidf.fit_transform(
-        df["komentar"]
+        df["comment"]
     )
 
     input_vec = tfidf.transform(
